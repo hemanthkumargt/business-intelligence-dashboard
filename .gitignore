@@ -1,5 +1,4 @@
-# Ignore generated screenshots and virtual env
-/assets/screenshots/
+# Ignore virtual env and cache
 .venv/
 __pycache__/
 *.pyc

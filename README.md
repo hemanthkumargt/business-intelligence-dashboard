@@ -60,6 +60,23 @@ business-intelligence-dashboard/
 └── assets/ (optional styling)
 ```
 
+## Dashboard Screenshots
+
+### Revenue Trend Analysis
+![Revenue Trend](assets/screenshots/revenue-trend.png)
+
+### Orders Volume Trend
+![Orders Volume](assets/screenshots/orders-volume.png)
+
+### City-wise Revenue Performance
+![City Performance](assets/screenshots/city-performance.png)
+
+### Repeat vs New Customers
+![Customer Behavior](assets/screenshots/customer-behavior.png)
+
+### Delivery Time Distribution (Operational Efficiency)
+![Operational Efficiency](assets/screenshots/operational-efficiency.png)
+
 ## Next Steps / Enhancements
 - Add pagination or table export for raw orders
 - Add user authentication for role-based views
