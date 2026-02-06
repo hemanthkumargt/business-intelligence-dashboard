@@ -1,0 +1,6 @@
+# Ignore generated screenshots and virtual env
+/assets/screenshots/
+.venv/
+__pycache__/
+*.pyc
+/.vscode/
