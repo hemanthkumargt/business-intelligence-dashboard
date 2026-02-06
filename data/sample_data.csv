@@ -1,0 +1,16 @@
+order_id,customer_id,order_date,city,order_value,delivery_time_minutes,order_status,is_repeat_customer
+1,101,2023-01-01,New York,100,30,Completed,1
+2,102,2023-01-02,Los Angeles,150,45,Completed,0
+3,103,2023-01-03,Chicago,200,20,Cancelled,0
+4,104,2023-01-04,New York,250,35,Completed,1
+5,105,2023-01-05,Los Angeles,300,50,Completed,0
+6,106,2023-01-06,Chicago,350,25,Cancelled,1
+7,107,2023-01-07,New York,400,40,Completed,1
+8,108,2023-01-08,Los Angeles,450,55,Completed,0
+9,109,2023-01-09,Chicago,500,30,Completed,1
+10,110,2023-01-10,New York,550,60,Cancelled,0
+11,111,2023-01-11,Los Angeles,600,20,Completed,1
+12,112,2023-01-12,Chicago,650,45,Completed,0
+13,113,2023-01-13,New York,700,35,Cancelled,1
+14,114,2023-01-14,Los Angeles,750,50,Completed,0
+15,115,2023-01-15,Chicago,800,25,Completed,1

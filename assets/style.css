@@ -1,0 +1,81 @@
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  color: #1f2937;
+}
+
+h1.dashboard-title {
+  background: linear-gradient(90deg, #0b69ff 0%, #0056d6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.kpi-row {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.kpi-card {
+  background: #ffffff;
+  padding: 14px 18px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(16,24,40,0.06);
+  flex: 1;
+  min-width: 140px;
+}
+
+.kpi-card h4 {
+  margin: 0;
+  color: #374151;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.kpi-card p {
+  margin: 8px 0 0 0;
+  font-size: 20px;
+  color: #0b69ff;
+  font-weight: 700;
+}
+
+.filters {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.filters .Select, .filters .DatePickerRange {
+  min-width: 220px;
+}
+
+.charts-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.dash-graph {
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 6px 18px rgba(16,24,40,0.04);
+}
+
+footer {
+  text-align: center;
+  margin-top: 18px;
+  color: #6b7280;
+  font-size: 12px;
+}
+
+@media (max-width: 900px) {
+  .charts-grid { grid-template-columns: 1fr; }
+  .kpi-row { flex-direction: column; }
+}
